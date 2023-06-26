@@ -1,1 +1,1 @@
-# hosting_bootstrap
+Free web hosting template
