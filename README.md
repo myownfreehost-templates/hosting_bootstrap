@@ -1,1 +1,1 @@
-Free web hosting template for myownfreehost.net free reseller hosting
+Free web hosting template for MOFH free reseller hosting
