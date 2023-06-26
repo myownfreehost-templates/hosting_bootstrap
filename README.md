@@ -1,1 +1,1 @@
-Free web hosting template
+Free web hosting template for myownfreehost.net free reseller hosting
