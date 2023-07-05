@@ -18,7 +18,7 @@ if(isset($_POST['lang']) && !empty($_POST['lang'])){
 if(isset($_SESSION['lang'])){
  include "lang_".$_SESSION['lang'].".php";
 }else{
- include "lang_ge.php";
+ include "lang_en.php";
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -85,8 +85,8 @@ function ShowPassword() {
 <div class="form-inline"> 
 <form method='POST' action='' id='form_lang'>  
 <select class="form-control" onchange='changeLang();' name="lang">	    
-<option <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] == 'ge'){ echo 'selected=selected'; } else echo ''; ?> value="ge"><small>ქარ</small></option>
 <option <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] == 'en'){ echo 'selected=selected'; } else echo ''; ?> value="en"><small>Eng</small></option>
+<option <?php if(isset($_SESSION['lang']) && $_SESSION['lang'] == 'ka'){ echo 'selected=selected'; } else echo ''; ?> value="ka"><small>ქარ</small></option>
 </select>
 </form></div>
 </nav></div>
