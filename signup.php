@@ -112,7 +112,7 @@ function ShowPassword() {
 <center><p><input type="submit" name="Submit" value="<?= _SIGNIN ?>" class="btn btn-primary"/> <input class="btn-check" type="checkbox" id="remember_me"><label class="btn btn-outline-success" for="remember_me"><?= _REMEMBER ?></label>
 </p>
 <hr>
-<p><a href="https://cpanel.<?echo $yourdomain;?>/lostpassword.php" class="btn btn-secondary btn-sm"><?= _LOST_YOUR_PASSWORD ?></a></p>
+<p><a href="http://cpanel.<?echo $yourdomain;?>/lostpassword.php" class="btn btn-secondary btn-sm"><?= _LOST_YOUR_PASSWORD ?></a></p>
 </center>
 </form></p></div></div>
 </div>
