@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> 
-<link href="http://yourhost.com/bootstrap.min.css" rel="stylesheet">
+<link href="http://yourhosting.com/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -23,43 +23,6 @@ You can now use FTP or the file manager in your cPanel to upload your site.</p>
 </center>
 </div>
 
-<div class="row">
-<center>
-<div class="col-md-6"><p>
-<div class="card">
-  <center><h5 class="card-header">Step 1</h5></center>
-  <div class="card-body">
-    <p class="card-text"> 
-<p>Download CMS <a class="btn btn-outline-dark" href="http://yourhost.com/file.zip"><b>file.zip</b></a></p>
-</div>
-  </div>
-</div>
-</p>
-</center>
-<center>
-<div class="col-md-6"><p>
-<div class="card">
-  <center><h5 class="card-header">Step 2</h5></center>
-  <div class="card-body">
-    <p class="card-text"> 
-<p>Upload CMS <b>file.zip</b></p><hr><details><summary class="btn btn-outline-primary">File Uploader</summary><br><br>
-        <form action="http://yourhost.com/upload.php" method="post" enctype="multipart/form-data">
-                <p><input name="upload" type="file" /></p>
-                
-                <p><input type="text" class="form-control" placeholder="FTP Server" name="ftp" value=""></p>
-                
-                <p><input type="text" class="form-control" placeholder="Username" name="username" value=""></p>
-                
-                <p><input type="text" class="form-control" placeholder="Password" name="password" value=""></p>
-                
-                <p><input type="submit" name="Submit" value="Upload" class="btn btn-primary"/></p>
-            
-        </form></details>
- </div>
-  </div>
-</div>
-</p>       
-</center>
-</div></div><br>
+</div><br>
 </body>
 </html>
